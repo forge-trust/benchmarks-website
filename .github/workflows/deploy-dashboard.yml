@@ -27,5 +27,5 @@ jobs:
       deploy: ${{ github.event.repository.fork == false && github.ref_name == github.event.repository.default_branch }}
       environment: github-pages
       ref: forge-trust
-      repository: forge-trust/benchmarks-bashboard
-      
+      repository: forge-trust/benchmarks-dashboard
+
